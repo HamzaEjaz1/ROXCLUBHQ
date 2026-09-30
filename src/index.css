@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+  min-height: 100svh;
+  width: 100%;
+}
+
+body {
+  background: #050506;
+  color: #f4f4f5;
+  font-family: Outfit, system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+button,
+input {
+  font-family: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+::selection {
+  background: rgba(232, 92, 0, 0.35);
+  color: #fff;
+}
